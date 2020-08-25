@@ -1,5 +1,5 @@
 function addElementToBeginningOfArray(arr, ele) {
-  return [...arr].shift(ele);
+  return [ele, ...arr]
 }
 
 function destructivelyAddElementToBeginningOfArray(arr, ele) {
